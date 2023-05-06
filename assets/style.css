@@ -7,8 +7,15 @@
 }
 
 .header {
+    display: flex;
     position: absolute;
 }
+
+.name {
+    display:contents;
+    justify-content: center;
+}
+
 .background {
     top: 100vh;
 }
