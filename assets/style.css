@@ -5,7 +5,7 @@
 
 body {
     font-size: 1.75rem;
-    line-height: 1;
+    line-height: 1.5;
     font-family: monospace;
     color: var(--text-color);
     background-color: var(--dark); 
@@ -58,7 +58,9 @@ a:visited {
     color: rgb(233, 176, 102);
 }
 
-
+.TTL {
+    margin: 0;
+}
 
 .recent-photo {
     position: relative;
@@ -83,8 +85,11 @@ article {
 }
 
 h2{
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 75px;
+    margin: 5%;
 }
 
 section p {
@@ -92,6 +97,40 @@ section p {
     margin: 25px;
 }
 
+.Projects {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.Projects:hover {
+    color: aqua;
+}
+
+#Project1 {
+    background: url("./images/MidJDevFactory.png") no-repeat;
+    background-size: cover;
+    width: 75vw;
+    height: 25vh;
+}
+
+#Project2 {
+    background: url("./images/MidJPandaHotSprings.png") no-repeat;
+    background-size: cover;
+    width: 40vw;
+    height: 25vh;
+}
+
+#Project3 {
+    background: url("./images/MidJVectorForest.png") no-repeat;
+    background-size: cover;
+    width: 40vw;
+    height: 25vh;
+}
 
 .footer {
     text-align: end;
