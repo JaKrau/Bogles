@@ -13,8 +13,8 @@ body {
 }
 
 .header {
-    position: relative;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     padding: 44px;
     background: url("./images/MidJVinesFull.png") no-repeat center;
     background-size: cover;
@@ -55,13 +55,10 @@ h1 {
 
 
 .recent-photo {
-    display: block;
     position: relative;
-    margin-top: 0px;
-    margin-left: 49px;
-    margin-bottom: -125px;
-    width: 300px;
-    height: 300px;
+    margin-left: 35vw;
+    width: 34vw;
+    height: 38vh;
 }
 
 section {
@@ -71,11 +68,14 @@ section {
     align-items: center;
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+}
 
 h2{
-text-align: center;
-font-size: 75px;
-margin-bottom: 50px;
+    text-align: center;
+    font-size: 75px;
 }
 
 section p {
@@ -86,7 +86,6 @@ section p {
 
 .footer {
     padding: 30px;
-    position: fixed;
     margin-bottom: 100%;
 }
 
