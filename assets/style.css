@@ -15,16 +15,25 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    padding: 44px;
+    align-items: center;
+    padding: 40vh;
     background: url("./images/MidJVinesFull.png") no-repeat center;
     background-size: cover;
 }
+
 nav {
     display: inline;
 }
+h1 {
+    display: flex;
+}
+
 
 .name {
     text-shadow: -5px 8px 11px black;
+    text-align: center;
+    margin-bottom: 12vh;
+    font-size: 7rem;
 }
 
 ul{
@@ -41,6 +50,7 @@ ul{
 a {
     color: var(--text-color);
    text-shadow: -5px 3px 7px black;
+   margin: 2vw;
 }
 
 
@@ -49,16 +59,15 @@ a:visited {
 }
 
 
-h1 {
-    display: flex;
-}
-
 
 .recent-photo {
     position: relative;
-    margin-left: 35vw;
-    width: 34vw;
-    height: 38vh;
+    margin-left: 0%;
+    margin-bottom: -2%;
+    width: 5%;
+    height: 5%;
+    min-width: 80px;
+    min-height: 120px;
 }
 
 section {
@@ -85,6 +94,7 @@ section p {
 
 
 .footer {
+    text-align: end;
     padding: 30px;
     margin-bottom: 100%;
 }

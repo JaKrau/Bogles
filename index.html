@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="top">
         <h1 class="name">Jake Krauskopf</h1>
         <nav>
             <ul class="links">
@@ -21,18 +21,25 @@
         </nav>
     </header>
 
-    <img class="recent-photo" src="./assets/images/self.png" alt="Recent photo">
-
     <section>
          
         <article id="About">
-            <h2>About Me</h2>
+
+            <h2><img class="recent-photo" src="./assets/images/self.png" alt="Recent photo">About Me</h2>
             <p>Hello! I'm Jake Krauskopf, a Washingtonian, currently enrolled in a fullstack bootcamp. Beyond that, I'm a father to three wonderful, wild, younglings. Whenever I find a bit of free time I poke around MidJourney and try to create useable files for my wife's boutique, <a href="https://thetwistedlily.com/">The Twisted Lily</a>. All of the images on this page, my face not included, were created with MidJourney!</p>
+
         </article>
+
         <br/>
+
         <article id="Work">
+            
             <h2>Work</h2>
-            Work links go here
+            <br/>
+<!-- 
+            This image needs to be formatted, I think it's what broke my Header scalability 
+            <img class="Project1" src="./assets/images/MidJCircuitboard.png" alt="white/gold circuit board"> 
+--> 
         </article>
         <br/>
         <article id="Contact">
@@ -43,7 +50,7 @@
 
 
     <footer class="footer">
-        The footer
+        <a href="#top">back to top</a>
     </footer>
 </body>
 </html>
