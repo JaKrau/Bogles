@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 40vh;
-    background: url("./images/MidJVinesFull.png") no-repeat center;
+    background: url("./assets/images/MidJVinesFull.png") no-repeat center;
     background-size: cover;
 }
 
@@ -107,10 +107,14 @@ section p {
     color: aqua;
 }
 
+.solo {
+    display: flex;
+}
+
 #Project1 {
-    background: url("./images/MidJDevFactory.png") no-repeat;
+    background: url("./assets/images/MidJDevFactory.png") no-repeat;
     background-size: cover;
-    width: 75vw;
+    width: 100%;
     height: 25vh;
 }
 
@@ -118,18 +122,27 @@ section p {
     display: flex;
 }
 
+
 #Project2 {
-    background: url("./images/MidJPandaHotSprings.png") no-repeat center;
+    background: url("./assets/images/MidJPandaHotSprings.png") no-repeat center;
     background-size: cover;
     width: 50%;
     height: 25vh;
 }
 
 #Project3 {
-    background: url("./images/MidJVectorForest.png") no-repeat center;
+    background: url("./assets/images/MidJVectorForest.png") no-repeat center;
     background-size: cover;
     width: 50%;
     height: 25vh;
+}
+
+.contactInfo {
+    text-align: center;
+}
+
+.justEmail {
+    align-self: center;
 }
 
 .footer {
