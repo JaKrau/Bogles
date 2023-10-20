@@ -2,7 +2,7 @@
 
 ## Description
 
-I built this portfolio Page from scratch, attempting to utilize semantic HTML and dry code - let me know how I did! - using only images I generated with Midjourney was an additional challenge I set for myself. Another goal for this page was a responsive design. The landing features my nav items, though, the page is so short they seem a little ridiculous. Every element was something I needed to study and tinker with, but I'm pretty content with the content. The "Projects" section currently features three items, though, only one of the links is my own. (the other two are "example.com" simply for a lack of projects)
+I built this portfolio Page from scratch, attempting to utilize semantic HTML and dry code - let me know how I did! - using only images I generated with Midjourney was an additional challenge I set for myself. Another goal for this page was a responsive design. The landing features my nav items, though, the page is so short they seem a little ridiculous. Every element was something I needed to study and tinker with, but I'm pretty content with the content. The "Projects" section currently features three items, each of which was a group project from the UC Berkley / EdX coding bootcamp.
 
 
 ## Installation
